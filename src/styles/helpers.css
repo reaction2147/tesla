@@ -22,3 +22,8 @@
 		display: none;
 	}
 }
+
+.navbar {
+    background-color: transparent;
+    background-image: none;
+    }

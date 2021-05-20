@@ -1,0 +1,41 @@
+import React from "react";
+import "../styles/helpers.css";
+import Logo from "../images/Tesla.svg";
+
+const Header = () => {
+  return (
+    <nav className="navbar is-spaced" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="/">
+          <img alt="" src={Logo} style={{width:"6.25rem", height:"1rem"}}/>
+        </a>
+        <p
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </p>
+      </div>
+      <div className="navbar-menu center">
+        <p className="navbar-item is-size-6 has-text-black">Model S</p>
+        <p className="navbar-item is-size-6 has-text-black">Model X</p>
+        <p className="navbar-item is-size-6 has-text-black">Model 3</p>
+        <p className="navbar-item is-size-6 has-text-black">Roadstar</p>
+        <p className="navbar-item is-size-6 has-text-black">Energy</p>
+      </div>
+      <div class="navbar-end">
+        <p class="navbar-item is-size-6">Shop</p>
+        <div className="buttons">
+        <p class="button is-light is-size-6">Sign In</p>
+        </div>
+        
+      </div>
+    </nav>
+  );
+};
+
+export default Header;
