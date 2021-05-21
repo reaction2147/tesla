@@ -21,16 +21,16 @@ const Header = () => {
         </p>
       </div>
       <div className="navbar-menu center">
-        <p className="navbar-item is-size-6 has-text-black">Model S</p>
-        <p className="navbar-item is-size-6 has-text-black">Model X</p>
-        <p className="navbar-item is-size-6 has-text-black">Model 3</p>
-        <p className="navbar-item is-size-6 has-text-black">Roadstar</p>
-        <p className="navbar-item is-size-6 has-text-black">Energy</p>
+        <p className="navbar-item is-size-6 has-text-black"><strong>Model S</strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong>Model X</strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong>Model 3</strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong>Roadstar</strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong>Energy</strong></p>
       </div>
       <div class="navbar-end">
-        <p class="navbar-item is-size-6">Shop</p>
+        <p class="navbar-item is-size-6 has-text-black">Shop</p>
         <div className="buttons">
-        <p class="button is-light is-size-6">Sign In</p>
+        <p class="button is-light is-size-6 has-text-black">Sign In</p>
         </div>
         
       </div>
