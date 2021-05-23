@@ -41,9 +41,11 @@
 
     @media (max-width: 768px) {
         .style-mobile {
-          margin-top: 10em;
+          margin-top: 25em;
         }
     }
     
-
+.footer-desktop { 
+    margin-top: 40px;
+}
     
