@@ -4,19 +4,19 @@ import "../styles/helpers.css";
 const Model3 = () => {
   return (
     <>
-      <header className="hero-head">
+      <div className="container" style={{marginTop: "25px"}}>
         <div
           className="is-overlay has-text-centered is-single-spaced"
-          style={{ top: "100px" }}
+        
         >
           <h1 className="title is-size-2">Model 3</h1>
           <h2 className="subtitle is-light is-size-6">
             1% Company Car Tax. <u>Learn More</u>
           </h2>
         </div>
-      </header>
+      </div>
 
-      <div className="container" style={{ top: "-200px" }}>
+      <div className="container style-desktop style-mobile">
         <div className="columns is-centered">
           <div className="column is-quater"></div>
           <div className="column ">
@@ -43,21 +43,18 @@ const Model3 = () => {
         <div className="columns is-multiline ">
           <div className="column is-one-fifth is-offset-one-sixth"></div>
           <div className="column">
-            <p className="title is-size-1">
+            <p className="title center is-size-1">
               <i className="fas fa-tachometer-alt is-size-1"></i> 1.9
               <span className="is-size-5">s</span>
             </p>
             <p className="center subtitle has-text-weight-bold">0-60 mph</p>
           </div>
           <div className="column">
-            <p className="title is-size-1">
-              360
-              <span className="is-size-5">mi</span>
-            </p>
+            <p className="title center is-size-1">360<span className="is-size-5">mi</span></p>
             <p className="center subtitle has-text-weight-bold">Range(WPLT)</p>
           </div>
           <div className="column">
-            <p className="title is-size-1">AWD</p>
+            <p className="title center is-size-1">AWD</p>
 
             <p className="center subtitle has-text-weight-bold">Dual Motor</p>
           </div>

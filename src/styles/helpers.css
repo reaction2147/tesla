@@ -33,4 +33,16 @@
         
     }
 
+    @media (min-width: 1024px) {
+        .style-desktop {
+          margin-top: 29em;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .style-mobile {
+          margin-top: 10em;
+        }
+    }
+
     
