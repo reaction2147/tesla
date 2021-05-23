@@ -4,11 +4,9 @@ import "../styles/helpers.css"
 
 const Hero = () => {
   return (
-    <div className="hero is-fullheight">
-      <div className="hero-head">
-        <img className="center" src={hero} alt="" style={{position:"absolute", top: "-250px"}}/>
+    <div className="container is-fullhd">
+        <img className="center" src={hero} alt="" style={{position:"absolute", top: "-300px"}}/>
       </div>
-    </div>
   );
 };
 
