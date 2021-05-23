@@ -17,7 +17,7 @@ const Model3 = () => {
       </div>
 
       <div className="container style-desktop style-mobile">
-        <div className="columns is-centered">
+        <div className="columns is-mobile is-centered">
           <div className="column is-quater"></div>
           <div className="column ">
             <div className="button is-fullwidth is-dark is-rounded has-text-weight-bold">

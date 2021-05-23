@@ -4,7 +4,7 @@ import "../styles/helpers.css"
 
 const Hero = () => {
   return (
-    <div className="container is-fullhd">
+    <div className="container is-fullhd is-hidden-touch">
         <img className="center" src={hero} alt="" style={{position:"absolute", top: "-300px"}}/>
       </div>
   );
