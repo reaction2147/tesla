@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/helpers.css";
 import Logo from "../images/Tesla.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav className="navbar is-spaced" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
-          <img alt="" src={Logo} style={{width:"6.25rem", height:"1rem"}}/>
+          <Link to="/"><img alt="" src={Logo} style={{width:"6.25rem", height:"1rem"}}/></Link>
         </a>
         <p
           role="button"
@@ -21,11 +22,11 @@ const Header = () => {
         </p>
       </div>
       <div className="navbar-menu center is-hidden-touch">
-        <p className="navbar-item is-size-6 has-text-black"><strong>Model S</strong></p>
-        <p className="navbar-item is-size-6 has-text-black"><strong>Model X</strong></p>
-        <p className="navbar-item is-size-6 has-text-black"><strong>Model 3</strong></p>
-        <p className="navbar-item is-size-6 has-text-black"><strong>Roadstar</strong></p>
-        <p className="navbar-item is-size-6 has-text-black"><strong>Energy</strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/ModelS">Model S</Link></strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/ModelX">Model X</Link></strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/Model3">Model 3</Link></strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/Roadster">Roadster</Link></strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/ModelS">Energy</Link></strong></p>
       </div>
       <div class="navbar-end is-hidden-touch">
         <p class="navbar-item is-size-6 has-text-black">Shop</p>
