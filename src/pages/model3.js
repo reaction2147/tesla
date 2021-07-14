@@ -1,10 +1,13 @@
 import React from "react";
 import "../styles/helpers.css";
+import Hero from "../components/hero.js"
+import Footer from "../components/footer"
 
 const Model3 = () => {
   return (
     <>
-      <div className="container" style={{marginTop: "25px"}}>
+    <Hero />
+      <div className="container" >
         <div
           className="is-overlay has-text-centered is-single-spaced"
         
@@ -60,6 +63,7 @@ const Model3 = () => {
           </div>
           <div className="column"></div>
         </div>
+        <Footer />
       </div>
     </>
   );

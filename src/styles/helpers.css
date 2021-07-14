@@ -39,6 +39,18 @@
         }
     }
 
+    @media (min-width: 1024px) {
+        .style-desktop-modelS {
+          margin-top: 19em;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .style-modelS {
+          margin-top: 7em;
+        }
+    }
+
     @media (max-width: 768px) {
         .style-mobile {
           margin-top: 25em;

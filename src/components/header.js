@@ -26,7 +26,7 @@ const Header = () => {
         <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/ModelX">Model X</Link></strong></p>
         <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/Model3">Model 3</Link></strong></p>
         <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/Roadster">Roadster</Link></strong></p>
-        <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/ModelS">Energy</Link></strong></p>
+        <p className="navbar-item is-size-6 has-text-black"><strong><Link to="/Energy">Energy</Link></strong></p>
       </div>
       <div class="navbar-end is-hidden-touch">
         <p class="navbar-item is-size-6 has-text-black">Shop</p>
